@@ -1,0 +1,90 @@
+body {
+  font-family: "montserrat";
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  justify-content: space-around;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+nav div {
+  display: flex;
+}
+.sidebar {
+  height: 100%;
+  width: 256px;
+  position: fixed;
+  background-color: #234361;
+  padding-top: 20px;
+  color: white;
+}
+.main-content {
+  margin-left: 256px;
+}
+.thin-section {
+  padding: 10px;
+  box-shadow: 0px 1px 0px rgba(247, 246, 246, 0.2);
+  /* box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); */
+}
+.thin-section-1 {
+  padding: 10px;
+  /* box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); */
+}
+.thin-section-1 ul {
+  list-style: none;
+}
+.thin-section-2 {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.thin-section-2 div {
+  box-sizing: border-box;
+  border: 1px solid white;
+}
+.big-section {
+  padding: 20px;
+  background-color: white;
+  margin-left: 20px;
+
+  margin-right: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label,
+form input {
+  margin-bottom: 10px;
+}
+
+form input {
+  padding: 8px;
+}
+.section-header {
+  height: 73px;
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+.big-section-header {
+  background-color: yellow;
+  width: 100%;
+}
+.mainbig-section {
+  background-color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.input-box {
+  border: 1px solid rgb(231, 230, 230);
+}
