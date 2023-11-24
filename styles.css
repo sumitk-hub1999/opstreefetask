@@ -2,7 +2,7 @@ body {
   font-family: "montserrat";
   margin: 0;
   padding: 0;
-  background-color: #f2f2f2;
+  background-color: #f5faff;
 }
 
 nav {
@@ -23,6 +23,7 @@ nav div {
   background-color: #234361;
   padding-top: 20px;
   color: white;
+  position: fixed;
 }
 .main-content {
   margin-left: 256px;
@@ -36,8 +37,24 @@ nav div {
   padding: 10px;
   /* box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); */
 }
+.thin-section-1 span {
+  font-size: 0.8rem;
+  margin-right: 20px;
+}
 .thin-section-1 ul {
   list-style: none;
+  margin-left: 10px;
+}
+.thin-section-1 ul li {
+  margin-bottom: 20px;
+}
+
+.thin-section-1 ul li img {
+  margin-right: 10px;
+  float: left;
+}
+.thin-section-1 ul li i {
+  float: right;
 }
 .thin-section-2 {
   margin-top: 10px;
@@ -71,13 +88,15 @@ form input {
 }
 .section-header {
   height: 73px;
-  background-color: lightblue;
-  border: 1px solid black;
+  background-color: white;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .big-section-header {
-  background-color: yellow;
+  background-color: #fffbee;
   width: 100%;
+  margin-right: 50px;
 }
 .mainbig-section {
   background-color: white;
@@ -87,4 +106,75 @@ form input {
 
 .input-box {
   border: 1px solid rgb(231, 230, 230);
+}
+.input-button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 0;
+  background-color: white;
+  cursor: pointer;
+  border-left: none;
+  margin-bottom: 9px;
+  margin-right: 20px;
+}
+.input-button-2 {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 0;
+  background-color: white;
+  cursor: pointer;
+  border-left: none;
+  margin-bottom: 9px;
+}
+.input-button-2 :hover {
+  background-color: red;
+  color: white;
+}
+.input-button-3 {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 0;
+  background-color: white;
+  cursor: pointer;
+
+  margin-bottom: 9px;
+}
+.input-button-3 :hover {
+  background-color: red;
+  color: white;
+}
+.input-button:hover {
+  background-color: grey;
+}
+.input-group {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  flex: 1;
+  border-right: none;
+  width: 100%;
+}
+.input-group-2 {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  flex: 1;
+  border-right: none;
+  width: 100%;
+}
+.input-group-3 {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  flex: 1;
+
+  width: 100%;
+}
+.bottomlist li {
+  justify-content: space-around;
+  margin-right: 100px;
+}
+.bottomlist li :hover {
+  border-bottom: blue;
+  cursor: pointer;
 }
