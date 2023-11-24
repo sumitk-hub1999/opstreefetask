@@ -178,3 +178,52 @@ form input {
   border-bottom: blue;
   cursor: pointer;
 }
+
+.btnprimary {
+  margin-right: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 12px;
+  text-align: center;
+
+  color: #fff;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btnprimary:hover {
+  background-color: darkblue;
+}
+.btnsec {
+  margin-right: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 12px;
+  text-align: center;
+
+  color: #fff;
+  background-color: rgb(255, 166, 0);
+  border: 1px solid rgb(255, 187, 0);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btnsec:hover {
+  background-color: darkorange;
+}
+.btn1 {
+  margin-right: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 12px;
+  text-align: center;
+
+  color: rgb(233, 231, 231);
+  background-color: lightgrey;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn1:hover {
+  background-color: darkgrey;
+}
